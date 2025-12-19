@@ -217,6 +217,14 @@ h3 {
 .header__top {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__container {
+  max-width: 1450px;
 }
 
 .header__search-btn,
@@ -265,6 +273,13 @@ h3 {
 }
 
 /* NAVIGATION */
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 .nav__link {
   color: var(--dark-primary);
   font-size: 1rem;
@@ -522,4 +537,10 @@ h3 {
 .feature,
 .product-card {
   animation: fadeInUp 0.6s ease-out;
+}
+
+@media (max-width: 1440px) {
+  .header__container {
+    max-width: 1000px;
+  }
 }
