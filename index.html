@@ -169,21 +169,30 @@
         <div class="container">
           <h2 class="products__title">Наша популярная продукция</h2>
           <div class="products__grid">
-            <article class="product-card">
+            <article class="product-card product-card--big">
               <img
                 src="assets/img/poplar-suede-sofa.webp"
                 alt="Диван из замши"
+                class="product-card__img--large"
               />
               <h3 class="product-card__title">Диван из&nbsp;замши Poplar</h3>
               <p class="product-card__price">98000&nbsp;руб.</p>
             </article>
             <article class="product-card">
-              <img src="assets/img/dandy-chair.webp" alt="Стул Dandy" />
+              <img
+                src="assets/img/dandy-chair.webp"
+                alt="Стул Dandy"
+                class="product-card__img--width"
+              />
               <h3 class="product-card__title">Стул Dandy</h3>
               <p class="product-card__price">25000&nbsp;руб.</p>
             </article>
             <article class="product-card">
-              <img src="assets/img/dandy-chair-2.webp" alt="Стул Dandy" />
+              <img
+                src="assets/img/dandy-chair-2.webp"
+                alt="Стул Dandy"
+                class="product-card__img--width"
+              />
               <h3 class="product-card__title">Стул Dandy</h3>
               <p class="product-card__price">25000&nbsp;руб.</p>
             </article>
@@ -197,7 +206,7 @@
       </section>
 
       <section class="newsletter">
-        <div class="container">
+        <div class="container newsletter__container">
           <h2 class="newsletter__title">
             Присоединяйтесь к&nbsp;клубу и&nbsp;получайте преимущества
           </h2>
@@ -241,10 +250,11 @@
                 Связаться с&nbsp;нами
               </button>
             </div>
-            <div>
+            <div class="prefooter__right">
               <img
                 src="assets/img/image.webp"
                 alt="Изображение дивана с вазами"
+                class="prefooter__img"
               />
             </div>
           </div>
@@ -297,8 +307,10 @@
               </ul>
             </div>
           </div>
-          <div>
-            <p class="form-footer__title">Подпишитесь на&nbsp;нашу рассылку</p>
+          <div class="footer__right">
+            <h2 class="form-footer__title">
+              Подпишитесь на&nbsp;нашу рассылку
+            </h2>
             <form class="footer__form">
               <input
                 type="email"
@@ -306,7 +318,7 @@
                 class="form__input form-footer__input"
                 required
               />
-              <button type="submit" class="button form__button footer__button">
+              <button type="submit" class="button form-footer__button">
                 Подписаться
               </button>
             </form>
