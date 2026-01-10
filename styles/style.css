@@ -872,7 +872,7 @@ h3 {
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
     padding: 80px 30px 30px;
     transition: right 0.4s ease;
-    z-index: 1000;
+    z-index: 1001;
     overflow-y: auto;
   }
 
@@ -917,6 +917,14 @@ h3 {
 
   .nav-overlay.active {
     display: block;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 }
 
