@@ -9,4 +9,4 @@
 - JavaScript
 
 ## 🔗 Ссылка на проект
-[Публичная страница на GitHub Pages](https://zemskovik.github.io/mirea-dpo-frontend-website/)
+[Публичная страница на GitHub Pages](https://zemskovik.github.io/mirea-dpo-2/)
